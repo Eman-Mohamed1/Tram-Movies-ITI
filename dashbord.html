@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- IE Compatibility Meta -->
+        <meta http-equiv="X-UA-compatiable" content="IE-edge">
+        <!-- Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project Name</title>
+        <link rel="stylesheet" href="style/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="style/fontawesome.min.css" type="text/css">
+        <link rel="stylesheet" href="style/brands.min.css" type="text/css">
+        <link rel="stylesheet" href="style/solid.min.css" type="text/css">
+        <link rel="stylesheet" href="style/normalize.css" type="text/css">
+        <link rel="stylesheet" href="style/animate.css" type="text/css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/rvslider.css" type="text/css">
+        <link rel="stylesheet" href= "style/style.css">
+        <link rel="stylesheet" href= "style/jquery.paginate.css">
+        <link rel="stylesheet" href="style/display.css" type="text/css">
+    </head>
+    <body>
+         <!-- As a heading -->
+         <nav class="navbar navbar-expand-sm navbar-dark">
+            <!-- Brand -->
+            <h4 class="brand"><i class="fas fa-tram logo"></i><span class="logo">T</span><span style="color:#e0eaf5;;">RAM </span><sub class="logo">Movies</sub></h4>        
+            <ul class="nav  text-center ml-auto ">    
+                <!-- Home -->
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="./index.html"> 
+                      <i class="fas fa-home"></i> Home</a>
+                  </li>
+                  <li>
+                    <!-- Logout -->
+                        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                  </li>
+                  <!--Account Setting-->
+                  <li>
+                  <a class="nav-link" href="./account.html"><i class="fas fa-user-cog"></i> Account Setting</a>
+                  </li>
+              </ul>
+        </nav>
+        <i class="fas fa-arrow-circle-up fa-3x"></i>
+        <div class="container">
+            <div class="row sec1">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" class="search" placeholder="search for movies or series">
+                </div>
+                <div class="col-sm-3 offset-sm-3">
+                <i class="fa fa-bell" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <span>user name</span>
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 icon-group">
+                <p><i class="fas fa-desktop"></i>Tv Series</p>
+                <p><i class="fas fa-film"></i> movies</p>
+                <p><i class="fas fa-list-ul"></i> Playlists</p>
+                <p><i class="fas fa-business-time"></i> Soon</p>
+                <p><i class="fas fa-plane-arrival"></i> New</p>
+                <p><i class="fas fa-history" aria-hidden="true"></i> History</p>   
+                <p><i class="fas fa-cogs"></i> Setting</p> 
+                <p><i class="fas fa-headset"></i> Support</p>  
+                </div>
+                <div class="col-sm-10 slider-cintainer">
+                <!-- Responsive Video Slider HTML: START -->
+                <div class="rvs-container">
+                    <div class="rvs-item-container">
+                        <div class="rvs-item-stage">
+                <!-- The below is a single item, simply duplicate this layout for each item -->
+                            <div class="rvs-item" style="background-image: url(./images/6.webp)">
+                                <p class="rvs-item-text">VIDEO_TITLE <small>by VIDEO_CREDITS</small></p>
+                                <a href="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_20MB.mp4" class="rvs-play-video"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rvs-nav-container">
+                        <a class="rvs-nav-prev"></a>
+                        <div class="rvs-nav-stage">
+                <!-- The below is the corresponding nav item for the single item, simply duplicate this layout for each item -->
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/background\ 2.jpg)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/7.webp)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/9.jpg)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/11.jpg)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/4.webp)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/8.png)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/7.jpg)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+                            <a class="rvs-nav-item">
+                                <span class="rvs-nav-item-thumb" style="background-image: url(./images/4.jpg)"></span>
+                                <h4 class="rvs-nav-item-title">VIDEO_TITLE</h4>
+                                <small class="rvs-nav-item-credits">by VIDEO_CREDITS</small>
+                            </a>
+
+                        </div>
+                        <a class="rvs-nav-next"></a>
+                    </div>
+
+                </div>
+                <!-- Responsive Video Slider HTML: END -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn">All</button>
+                            <button type="button" class="btn btn-info">Action</button>
+                            <button type="button" class="btn">Comedy</button>
+                            <button type="button" class="btn">Horror</button>
+                            <button type="button" class="btn">Drama</button>
+                            <button type="button" class="btn">Romance</button>
+                            <button type="button" class="btn">Animation</button>
+                            <button type="button" class="btn">Documentary</button>
+                            <button type="button" class="btn">Adventure</button>
+                            
+                        </div>
+                    </div>
+                    <div class="row" id="pag">
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/7.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/6.webp">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/5.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/9.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/8.png">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/6.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/2.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/10.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/7.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/6.webp">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/5.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/9.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/8.png">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/6.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/2.jpg">
+                        </div>
+                        <div class="col-sm-3 details-cont p-2">
+                            <div class="overlay">
+                                <div class="row title col-sm-12">Movie Title</div>
+                                <div class="row rate">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                
+                            </div>
+                            <img src="./images/10.jpg">
+                        </div>
+                        
+                    </div>
+                <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+            <div class="copy">
+                <h4 class="brand"><i class="fas fa-tram logo"></i><span class="logo">T</span><span class="sub">RAM </span><sub class="logo">Movies</sub></h4>
+                <p class="mx-auto">
+                    <i class="fab fa-facebook-f"></i>&nbsp;
+                    <i class="fab fa-twitter"></i>&nbsp;
+                    <i class="fab fa-instagram"></i>&nbsp;
+                    <i class="fab fa-google-plus-g"></i>&nbsp;
+                    <i class="fab fa-whatsapp"></i>&nbsp;<br>
+                    Copyright 2021 by <span class="logo brand">TRAM</span> &copy; All Right Reserved</p>
+            </div>
+          
+        <script src="js/jquery-project-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/rvslider.js" type="text/javascript"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.paginate.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

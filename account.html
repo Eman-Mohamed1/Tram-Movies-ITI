@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='uf-8'>
+    <meta name="description" content="this is new website for all people">
+    <title>account_settings</title>
+    <link rel="stylesheet" href="style/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="style/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="style/brands.min.css" type="text/css">
+    <link rel="stylesheet" href="style/solid.min.css" type="text/css">
+    <link rel="stylesheet" href="style/normalize.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/account.css">
+</head>
+
+<body>
+    <div class="sect">
+        <div class="container contain ">
+            <div class=row>
+                <div class=c ol-lg-8>
+                    <h3>Account Settings </h3>
+                </div>
+                <div class=c ol-lg-4>
+                    <button id="save" class="btn btn-info  " type="button" disabled>
+                                  Save    <span class="badge"><i class="fas fa-sign-in-alt"></i></span>
+                                </button>
+                    <button id="edit" class="btn btn-info  " type="button">
+                                  Edit    <span class="badge"><i class="fas fa-sign-in-alt"></i></span>
+                                </button>
+                </div>
+            </div>
+        </div>
+        <div class="container contain">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div style="width: 260px; height: 260px;">
+                        <img id="image profileImage " src="image/avatar.jpg">
+                    </div>
+                    <input type="file" id="imageUpload" />
+                    <button class="icon " id="open" disabled onclick=" Upload ()"> <span class="glyphicon glyphicon-open" ></span>  </button>
+                    <button class="icon" disabled onclick=" takescreenshot ()"> <span class="glyphicon glyphicon-camera" ></span> </button>
+                    <button class="icon" id="del" disabled onclick=" DELETE ()"><span class="glyphicon glyphicon-trash" ></span> </button>
+                    <!-- <button  id="close_vid"  > close_video</button> -->
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div style="width: 260px; height: 260px;">
+                        <video autoplay="true" id="videoElement"></video>
+
+                    </div>
+                    <canvas id="showscreenshot"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="container contain">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div class="input-group">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" placeholder="" value="Ahmed" disabled>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div class="input-group">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" placeholder="" value="Mohamed" disabled>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div class="input-group">
+                        <label> your Email</label>
+                        <input type="email" class="form-control" placeholder="" value="Ahmed123@gmail.com" disabled>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 ">
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="" value="12345" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container contain">
+            <div class="row">
+                <div class="MAIN ">
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="number" class="form-control" placeholder="" value="01141213875" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Address</label>
+                            <input type="text" class="form-control" placeholder="" value="Naser city /Cairo/Egypt" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Nation</label>
+                            <input type="text" class="form-control" placeholder="" value="Egyption" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>language</label>
+                            <input type="text" class="form-control" placeholder="" value="Arabic" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Gender</label>
+                            <input type="text" class="form-control" placeholder="" value="Male" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Date of Birth</label>
+                            <input type="date" class="form-control" placeholder="" value="1997-09-28" disabled>
+                        </div>
+                    </div>
+                </div>
+                <!--social Media-->
+                <div class="MAIN">
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Linked In </label>
+                            <input type="text" class="form-control" placeholder="" value="Ahmed123@Linkedin.com" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Facebook</label>
+                            <input type="text" class="form-control" placeholder="" value="Ahmed123@yahoo.com" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>twitter</label>
+                            <input type="text" class="form-control" placeholder="" value="Ahmed123@twitter.com" disabled>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <label>Google</label>
+                            <input type="text" class="form-control" placeholder="" value="Ahmed123@gmail.com" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--payment Methods-->
+        <div class="container contain">
+            <div class="row">
+                <div class="col-lg-3">
+                    <p>Payment Method</p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fab fa-cc-mastercard"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fab fa-cc-visa"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById('imageUpload').onchange = function Upload(evt) {
+                var tgt = evt.target || window.event.srcElement,
+                    files = tgt.files;
+
+                // FileReader support
+                if (FileReader && files && files.length) {
+                    var fr = new FileReader();
+                    fr.onload = function() {
+                        var myimge = document.querySelector('img');
+                        myimge.setAttribute('src', fr.result);
+                    }
+                    fr.readAsDataURL(files[0]);
+                }
+
+                // Not supported
+                else {
+                    // fallback -- perhaps submit the input to an iframe and temporarily store
+                    // them on the server until the user's session ends.
+                }
+            }
+
+
+            /*canvas script*/
+
+            var video = document.querySelector("#videoElement");
+            var canvas = document.querySelector("#showscreenshot");
+
+
+            async function startCamera() {
+                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                    let str = await navigator.mediaDevices.getUserMedia({
+                        video: true,
+                        audio: false
+                    }, )
+                    video.srcObject = str;
+                }
+            }
+
+
+
+
+            function stop(e) {
+
+                var stream = video.srcObject;
+                var tracks = stream.getTracks();
+
+                for (var i = 0; i < tracks.length; i++) {
+                    var track = tracks[i];
+                    track.stop();
+                }
+
+                video.srcObject = null;
+            }
+
+
+            function takescreenshot() {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                let ctx = canvas.getContext("2d");
+                ctx.drawImage(video, 0, 0);
+                console.log(canvas);
+                var url = canvas.toDataURL();
+                var myimge = document.querySelector('img');
+                myimge.setAttribute('src', url);
+                canvas.style.display = "none";
+
+
+            };
+            // delete function
+            function DELETE() {
+                videoElement
+                var myimge = document.querySelector('img');
+                myimge.setAttribute('src', 'image/avatar.jpg');
+
+            }
+        </script>
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-project-3.4.1.min.js"></script>
+        <script src="js/account.js"></script>
+
+
+</body>
+
+</html>
